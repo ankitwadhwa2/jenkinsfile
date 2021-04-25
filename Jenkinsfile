@@ -7,6 +7,7 @@ pipeline {
                 echo 'Hello world!' 
 				echo env.BUILD_ID
 				echo currentBuild.displayName
+		    echo " we are using jenkns file using git url SCM
             }
         }
     }
